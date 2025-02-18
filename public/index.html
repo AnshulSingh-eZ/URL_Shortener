@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL_Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        Create Short-URL
+    </div>
+    <div class="form">
+        <div class="form-ele">
+            <label for="longurl">Enter link</label>
+            <input type="text" id="longurl" placeholder="Ex. https://google.com">
+        </div>
+        <div class="form-ele">
+            <button id="createshorturl">Create URL</button>
+
+        </div>
+        <div class="result">
+            <a href="#" id="short-url"></a>
+        </div>
+
+    </div>
+    <div class="list">
+        <h2>Shorten Links</h2>
+        <table class="list-url">
+            <thead>
+                <tr>
+                    <th>Long-URLs</th>
+                    <th>Short-URLs</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

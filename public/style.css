@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.form{
+    align-self: center;
+    font-weight: 500;
+    font-size: larger;
+    background-color: azure;
+    color: blue;
+}
+.list{
+    width: 800px;
+    margin: 40px auto;
+
+}
+.list table{
+    width: 100%;
+    text-align: center;
+}
+.list table thead tr{
+    background: #555;
+    color: #eee;
+    
+}
+.list table thead tr th,
+.list table tbody tr td{
+    padding: 5px;
+}
+.list table tbody tr:nth-child(odd){
+    background: #eee;
+}
